@@ -14,3 +14,10 @@ generate random board pattern each time a new game is started.
 let board = []
 
 
+ADD CURRENT TEAM TURN STATE
+ CONDITIONAL LOGIC FOR THAT
+ SET FIRST TEAM STATE
+
+ COLOR "F" CARD BASED ON FIRST TEAM STATE using CSS
+
+ 
