@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.play-board {
+  border: solid
+}
+.word-card {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
