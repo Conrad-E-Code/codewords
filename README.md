@@ -13,3 +13,4 @@ generate random board pattern each time a new game is started.
 
 let board = []
 
+
