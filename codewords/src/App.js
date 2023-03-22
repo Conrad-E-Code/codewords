@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import WordCard from "./components/WordCard"
 import Playboard from './components/PlayBoard';
-
+import {useEffect} from "react"
 function App() {
   // blue team gets 8 cards
   //red team gets 8 cards
@@ -60,8 +60,12 @@ function makeBoard(array) {
       lastRow
   ]
 }
+useEffect(()=>{
+  fetch("https://random-word-api.vercel.app/api?words=25")
+  .then(r => r.json())
+  .then(data => console.log(data))
 
-
+},[])
 
 
 shuffleArray(patternPool)
