@@ -31,6 +31,7 @@
   border: solid
 }
 .word-card {
+  width: 12vw;
   display: flex;
   flex-direction: row;
   border: solid;
@@ -38,6 +39,15 @@
   margin-right: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.word-cardR {
+  background-color: red;
+}
+.word-cardB {
+  background-color: blue;
+}
+p {
+  display: none;
 }
 
 @keyframes App-logo-spin {
